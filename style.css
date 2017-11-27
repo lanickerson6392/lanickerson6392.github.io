@@ -1,0 +1,90 @@
+.home {
+    background-image: url("Home.jpg");
+	background-repeat: no-repeat;
+}
+
+.whativedone {
+	background-image: url("wood_background.jpg");
+	background-attachment: fixed;
+	background-repeat: norepeat;
+
+}
+
+.aboutme {
+	background-image: url("AboutMe.jpg");
+	background-attachment: fixed;
+	background-repeat: norepeat;
+	display: inline;
+	position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+h1 {
+    color: lightblue;
+	background-color: rgba(0,0,0,0.5);
+    text-align: center;
+	font-family: "Georgia", serif;
+	font-size: 72px;
+}
+
+.aboutmeheader {
+	background-color: lightblue;
+	color: white;
+	text-align: center;
+	font-size: 72px;
+	font-family: "Georgia", serif;
+	position: relative;
+} 
+
+.whativedoneheader {
+	color: white;
+	background-color: rgba(120,120,120,0.8);
+    text-align: center;
+	font-family: "Georgia", serif;
+	font-size: 65px;
+	z-index: 10;
+}
+
+ol {
+	color: lightblue;
+	background-color: rgba(0,0,0,0.5);
+	font-family: "roboto",sans-serif;
+	font-size: 24px;
+	
+}
+
+p {
+	color: lightblue;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 30px;
+	font-family: "roboto", sans-serif;
+	text-align: center;
+}
+
+.whoiam {
+	color: indianred;
+	background-color: rgba(255,255,255,0.5);
+	text-align: center-right;
+	font-family: "roboto", sans-serif;
+	font-size: 48px;
+	position: relative;
+	line-height: 130%;
+}
+
+img {
+	position: relative;
+	display: block;
+    margin: auto;
+}
+
+.gallery {
+	background-color: lightblue;
+}
+
+a {
+	color:lightblue;
+}
+
+
