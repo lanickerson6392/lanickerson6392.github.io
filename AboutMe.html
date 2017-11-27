@@ -12,7 +12,14 @@
   very passionate about computers and computer software.  I have always been extremely interested in these things for as long 
   as I can remember.  I hope that I am able to join a career one day where I can truly pour out my love for computers and make life better
   for everyone through the software I develop.</p>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+    </canvas>
+      <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(95,50,40,0,2*Math.PI);
+        ctx.stroke();
+      </script>
   </body>
-  <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
-  </canvas>
  </html>
